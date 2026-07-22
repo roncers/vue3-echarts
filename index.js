@@ -1,4 +1,5 @@
 import * as echarts from 'echarts';
+import ResizeObserver from 'resize-observer-polyfill';
 import { capitalize, defineComponent, h } from 'vue';
 // https://echarts.apache.org/zh/api.html#events
 const Events = [
